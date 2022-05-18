@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <HomePage />
+    <HomePage/>
 
   </div>
 </template>
