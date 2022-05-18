@@ -1,19 +1,19 @@
 <template>
   <div id="app">
 
-    <HomePage/>
+    <FandQ />
 
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import FandQ from './components/FandQ.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HomePage,
+    FandQ,
 }
 }
 </script>
