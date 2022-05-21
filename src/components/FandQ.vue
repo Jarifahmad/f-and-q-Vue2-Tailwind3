@@ -12,6 +12,7 @@
             
             <button @click.prevent="answerToQuestion3 = !answerToQuestion3" class="rounded-full bg-white w-40 m-3">Question 3</button> 
             <p v-if="answerToQuestion3" class="flex flex-cols-1 m-2"> Answer to question 3 is blah blah </p>
+
         </div>
 
     </div>
@@ -29,12 +30,6 @@ export default {
           answerToQuestion3: false,
       }
   },
-
-  methods:{
-     showAnswer(){
-        
-     }
-  }
 
 }
 
