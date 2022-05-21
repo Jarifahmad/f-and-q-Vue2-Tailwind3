@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h3 class="bg-slate-900 text-white mt-44 h-40">This is the footer section</h3>
+        <footer class="bg-gray-800 w-full text-center pb-8">
+            <p class="text-xs text-gray-400 font-light">Copyright © 2022 Jarif Ahmad</p>
+        </footer>
     </div>
 </template>

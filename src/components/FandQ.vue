@@ -1,22 +1,21 @@
 <template>
     
-    <div class="">
-        <h2 class="">F&Q Section</h2>
+    <div class="flex flex-col items-center ">
+        <h2 class="font-bold m-6 underline text-xl">Frequently asked question </h2>
 
-        <li class="shadow-2xl box-border h-100 w-100 p-4 border-4 border-teal-400 bg-teal-200 h-60 columns-3xs ">
-            <button @click.prevent="answerToQuestion1 = ! answerToQuestion1" class="rounded-full bg-pink-500 w-28">Question 1</button> <br>
-            <p v-if="answerToQuestion1" class="grid-cols-1 mr-10"> Answer to question 1 is blah blah </p>
+        <div class="flex flex-col items-center box-border h-full w-full p-4 border-4 border-blue-400 bg-blue-300">
+            <button @click.prevent="answerToQuestion1 = ! answerToQuestion1" class="rounded-full bg-white w-40">Question 1</button> <br>
+            <p v-if="answerToQuestion1" class="flex flex-cols-1 m-2"> Answer to question 1 is blah blah </p>
             <br>
 
-            <button @click.prevent="answerToQuestion2 = ! answerToQuestion2" class="rounded-full bg-pink-500 w-28">Question 2</button> <br>
-            <p v-if="answerToQuestion2" class="grid-cols-1 "> Answer to question 2 is blah blah </p>
+            <button @click.prevent="answerToQuestion2 = ! answerToQuestion2" class="rounded-full bg-white w-40">Question 2</button> <br>
+            <p v-if="answerToQuestion2" class="flex flex-cols-1 m-2"> Answer to question 2 is blah blah </p>
             <br>
 
-            <button @click.prevent="answerToQuestion3 = !answerToQuestion3" class="rounded-full bg-pink-500 w-28">Question 3</button> <br>
-            <p v-if="answerToQuestion3" class="grid-cols-1 ml-8"> Answer to question 3 is blah blah </p>
-            <p v-else> </p>
-            
-        </li>
+            <button @click.prevent="answerToQuestion3 = !answerToQuestion3" class="rounded-full bg-white w-40">Question 3</button> <br>
+            <p v-if="answerToQuestion3" class="flex flex-cols-1 m-2"> Answer to question 3 is blah blah </p>
+        </div>
+
     </div>
     
 

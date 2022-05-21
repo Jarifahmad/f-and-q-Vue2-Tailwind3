@@ -1,13 +1,13 @@
 <template>
   <div id="app">
 
-    <BurgerMenu/>
-
-    <NavBar/>
+    <HeaderSection/>
 
     <HeroSection/>
 
     <FandQ/>
+
+    <FormSection />
 
     <FooterSection/> 
 
@@ -15,20 +15,19 @@
 </template>
 
 <script>
-import BurgerMenu from './components/BurgerMenu.vue'
-import NavBar from './components/NavBar.vue'
+import HeaderSection from './components/HeaderSection.vue'
 import HeroSection from './components/HeroSection.vue'
 import FandQ from './components/FandQ.vue'
-import FooterSection from './components/FooterSection.vue'
-
+import FooterSection from './components/FooterSection.vue' 
+import FormSection from './components/FormSection.vue'
 
 export default {
   name: 'App',
   components: {
-    BurgerMenu,
-    NavBar,
+    HeaderSection,
     HeroSection,
     FandQ,
+    FormSection,
     FooterSection,
 
 }
