@@ -17,7 +17,7 @@
                 
                 <div class="my-4">
                     <h1 class="text-2xl text-indigo-100">Landing page - Made by Jarif Ahmad</h1>
-                    <p class="text-sm text-indigo-200">Made this full responsive landing page while also following along with the video for refereneces.</p>
+                    <p class="text-sm text-indigo-200">Made this full responsive landing page while also following along with Scrimba video's for refereneces.</p>
                     
                     <div class="relative mt-4 flex">
                         <div>
