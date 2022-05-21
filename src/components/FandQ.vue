@@ -1,7 +1,7 @@
 <template>
     
-    <div class="flex flex-col items-center ">
-        <h2 class="font-bold m-6 underline text-xl">Frequently asked question </h2>
+    <div class="flex flex-col items-center h-full">
+        <h2 class="font-bold m-6 underline text-xl text-indigo-700">Frequently asked question </h2>
 
         <div class="flex flex-col items-center box-border h-full w-full p-4 border-4 border-blue-400 bg-blue-300">
             <button @click.prevent="answerToQuestion1 = ! answerToQuestion1" class="rounded-full bg-white w-40 m-3">Question 1</button> 
