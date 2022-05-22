@@ -19,9 +19,9 @@
                     <h1 class="text-2xl text-indigo-100">Landing page - Made by Jarif Ahmad</h1>
                     <p class="text-sm text-indigo-200">Made this full responsive landing page while also following along with Scrimba video's for refereneces.</p>
                     
-                    <div class="relative mt-4 flex">
+                    <div class="relative mt-4 flex"> <!-- enroll button here-->
                         <div>
-                            <a href="#" class="bg-pink-500 text-indigo-100 font-bold mt-2 px-4 py-2 rounded-full text-xs uppercase">Enroll Now</a>
+                            <enroll-button></enroll-button>
                         </div>
                         
                         <div class="absolute right-0 bg-white rounded-full flex justify-center items-center p-5 border-4 border-pink-500">
