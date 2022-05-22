@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import enrollButton from './components/enrollButton.vue'
+import enrollButton from './components/EnrollButton.vue'
 
 Vue.config.productionTip = false
 
