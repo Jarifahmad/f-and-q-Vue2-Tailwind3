@@ -7,8 +7,10 @@
 
     <FandQ/>
 
-    <FormSection />
-
+    <FormSection /> 
+    
+    <input-field></input-field>
+    
     <FooterSection/> 
 
   </div>
@@ -20,6 +22,7 @@ import HeroSection from './components/HeroSection.vue'
 import FandQ from './components/FandQ.vue'
 import FooterSection from './components/FooterSection.vue' 
 import FormSection from './components/FormSection.vue'
+import InputField from './components/InputField.vue'
 
 export default {
   name: 'App',
@@ -29,6 +32,7 @@ export default {
     FandQ,
     FormSection,
     FooterSection,
+    InputField,
 
 }
 }
