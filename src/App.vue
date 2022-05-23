@@ -3,7 +3,9 @@
 
     <HeaderSection/>
 
-    <EnrollButton />
+    <BaseButton />
+
+    <base-button></base-button>
 
     <HeroSection/>
 
@@ -25,7 +27,8 @@ import FandQ from './components/FandQ.vue'
 import FooterSection from './components/FooterSection.vue' 
 import FormSection from './components/FormSection.vue'
 import InputField from './components/InputField.vue'
-import EnrollButton from './components/EnrollButton.vue'
+import BaseButton from './components/BaseButton.vue'
+
 
 export default {
   name: 'App',
@@ -36,7 +39,7 @@ export default {
     FormSection,
     FooterSection,
     InputField,
-    EnrollButton
+    BaseButton,
 }
 }
 </script>
