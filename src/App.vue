@@ -5,7 +5,7 @@
 
     <captioned-content> 
       <template #content>
-        <div class="flex max-w-xl h-60">
+        <div class="flex max-w-xl max-max-h-80">
           <img class="mt-4 bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
         </div>
       </template>
@@ -16,7 +16,7 @@
 
     <captioned-content> 
       <template #content>
-        <div class="flex max-w-xl h-60">
+        <div class="flex max-w-xl h-80">
           <img class="mt-4" src="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg" alt="">
         </div>
       </template>
