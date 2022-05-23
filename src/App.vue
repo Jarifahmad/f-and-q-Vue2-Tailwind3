@@ -5,7 +5,9 @@
 
     <captioned-content> 
       <template #content>
-        <img class="w-60 mt-4" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
+        <div class="flex max-w-xl max-max-h-80">
+          <img class="mt-4 bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
+        </div>
       </template>
       <template #caption>
         Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png">wallhaven</a>
@@ -14,7 +16,9 @@
 
     <captioned-content> 
       <template #content>
-        <img class="w-60 mt-4" src="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg" alt="">
+        <div class="flex max-w-xl h-80">
+          <img class="mt-4" src="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg" alt="">
+        </div>
       </template>
       <template #caption>
         Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg">wallhaven</a>
