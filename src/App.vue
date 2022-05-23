@@ -3,9 +3,23 @@
 
     <HeaderSection/>
 
-    <BaseButton />
+    <captioned-content> 
+      <template #content>
+        <img class="w-60 mt-4" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
+      </template>
+      <template #caption>
+        Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png">wallhaven</a>
+      </template>
+    </captioned-content> 
 
-    <BaseButton />
+    <captioned-content> 
+      <template #content>
+        <img class="w-60 mt-4" src="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg" alt="">
+      </template>
+      <template #caption>
+        Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg">wallhaven</a>
+      </template>
+    </captioned-content> 
 
     <HeroSection/>
 
@@ -27,7 +41,7 @@ import FandQ from './components/FandQ.vue'
 import FooterSection from './components/FooterSection.vue' 
 import FormSection from './components/FormSection.vue'
 import InputField from './components/InputField.vue'
-import BaseButton from './components/BaseButton.vue'
+import CaptionedContent from './components/CaptionedContent.vue'
 
 
 export default {
@@ -39,7 +53,7 @@ export default {
     FormSection,
     FooterSection,
     InputField,
-    BaseButton,
+    CaptionedContent
 }
 }
 </script>
