@@ -5,7 +5,7 @@
 
     <BaseButton />
 
-    <base-button></base-button>
+    <BaseButton />
 
     <HeroSection/>
 
