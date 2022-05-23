@@ -25,7 +25,7 @@
       </template>
     </captioned-content> 
 
-    <PropButton btn-text="Hello from the App.vue"/> 
+    <PropButton :btn-text="text"/> 
 
     <HeroSection/>
 
@@ -63,6 +63,12 @@ export default {
     InputField,
     CaptionedContent,
     PropButton,
+},
+
+data () {
+  return{
+    text: "Hi from data"
+  }
 }
 }
 </script>
