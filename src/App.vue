@@ -27,6 +27,8 @@
 
     <PropButton :btn-text="text"/> 
 
+    <button class="bg-blue-400 w-40 flex justify-center items-center rounded-full border-black border-2" @click="text = 'you changed the text!'" >Click me to change text</button>
+
     <HeroSection/>
 
     <FandQ/>
@@ -67,7 +69,7 @@ export default {
 
 data () {
   return{
-    text: "Hi from data"
+    text: "Click the other button"
   }
 }
 }
