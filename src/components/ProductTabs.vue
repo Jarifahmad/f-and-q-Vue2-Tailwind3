@@ -20,5 +20,8 @@
 </script>
 
 <style>
-
+  .activeTab {
+    color: #16C0B0;
+    text-decoration: underline;
+  }
 </style>
