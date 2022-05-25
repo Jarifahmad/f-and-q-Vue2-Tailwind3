@@ -1,9 +1,13 @@
 <template>
-    <div class="flex flex-col items-center mt-6 ">
+    <div class="flex flex-col items-center mt-6">
         <ul>
-            <span :class="{ activeTab: selectedTab === tab }" class="tab" v-for="(tab, index) in tabs" :key="index" @click="selectedTab = tab">
-            {{ tab }}</span>
+            <span :class="{ activeTab: selectedTab === tab }" 
+            class="tab" v-for="(tab, index) in tabs" 
+            :key="index" 
+            @click="selectedTab = tab">
+            {{ tab }} </span>
         </ul> 
+
     </div>
 </template>
 
@@ -12,7 +16,7 @@
     export default {
         data(){
             return{
-                tabs: ['Reviews',' Make a Review'],
+                tabs: ['Reviews','Make a Review'],
                 selectedTab: 'Reviews'
             }
         },
@@ -23,5 +27,6 @@
   .activeTab {
     color: #16C0B0;
     text-decoration: underline;
+    font-weight: 600;
   }
 </style>
