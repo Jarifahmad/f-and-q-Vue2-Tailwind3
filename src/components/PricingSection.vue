@@ -1,17 +1,23 @@
 <template>
-    <div class="flex flex-row justify-center">
+    <div class="mb-8 mt-16 lg:px-0 mx-auto overflow-hidden">
 
         <slot name="pricing-header">
 
-            <h1 class="flex h-10 justify-center text-4xl font-bold border-b-8 border-amber-300">A premium platform with mission-led pricing</h1> <br>
+            <h1 class="flex-col font-bold text-5xl text-black text-center mb-6 border-b-8 border-amber-300  ">A premium platform with mission-led pricing</h1> <br>
 
         </slot>
-        
+        <!--border-b-8 border-amber-300-->
+
+        <p class="max-w-3xl text-lg m-auto text-black mt-4 mb-10 relative flex-col">
+            Our platform has accessible pricing plans for smaller and larger churches,
+            as well as a Free Forever plan that won't cost a thing. So whether your church 
+            has 5 children or 500, you can access the resources you need to raise up faith in the next generation.
+        </p>
 
         <slot name="free-forever">
 
         <table class="flex">
-            <ul class="flex flex-col min-w-0 min-h-0 bg-neutral-600 items-center p-10 content-center">
+            <ul class="flex-col bg-neutral-600 items-center p-10 ">
                 <li>
                     <h1 class="flex justify-center text-white text-4xl font-bold m-6">Free Forever</h1>
                 </li>

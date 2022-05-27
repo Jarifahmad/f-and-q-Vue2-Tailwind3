@@ -17,6 +17,7 @@
       </template>
     </pricing-section>
 
+    <CarouselSection />
 
     <HeaderSection/>
 
@@ -54,6 +55,7 @@ import InputField from './components/InputField.vue'
 import CaptionedContent from './components/CaptionedContent.vue'
 import NavBar from './components/NavBar.vue'
 import PricingSection from './components/PricingSection.vue'
+import CarouselSection from './components/CarouselSection.vue'
 
 
 
@@ -68,7 +70,8 @@ export default {
     FooterSection,
     InputField,
     CaptionedContent,
-    PricingSection
+    PricingSection,
+    CarouselSection
 },
 
 }
