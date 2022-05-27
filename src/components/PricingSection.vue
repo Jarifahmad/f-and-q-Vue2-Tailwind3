@@ -1,12 +1,11 @@
 <template>
     <div class="flex flex-row justify-center">
-
+    
         <slot name="pricing-header">
 
             <h1 class="flex h-10 justify-center text-4xl font-bold border-b-8 border-amber-300">A premium platform with mission-led pricing</h1> <br>
 
         </slot>
-        
 
         <slot name="free-forever">
 
