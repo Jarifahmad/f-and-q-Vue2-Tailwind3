@@ -55,10 +55,7 @@ export default {
     FooterSection,
     InputField,
     CaptionedContent,
-<<<<<<< HEAD
-=======
     PricingSection
->>>>>>> bace48c11c939d324709acdf35fb5ca41d50bcce
 },
 
 }
