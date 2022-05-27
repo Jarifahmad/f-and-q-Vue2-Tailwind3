@@ -27,7 +27,7 @@
       </template>
     </captioned-content> 
 
-    
+    <PricingSection/>
 
     <HeroSection/>
 
@@ -57,6 +57,7 @@ import CaptionedContent from './components/CaptionedContent.vue'
 import ProductReview from './components/ProductReview.vue' 
 import ProductTabs from './components/ProductTabs.vue' 
 import NavBar from './components/NavBar.vue'
+import PricingSection from './components/PricingSection.vue'
 
 
 
@@ -73,6 +74,7 @@ export default {
     CaptionedContent,
     ProductReview,
     ProductTabs,
+    PricingSection
 },
 
 }
