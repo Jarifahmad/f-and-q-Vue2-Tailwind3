@@ -1,5 +1,8 @@
 <template>
     <div class="flex justify-center mt-12">
+
+        <!--(left side of the pricing table) Free Forever-->
+
         <div class="flex flex-col min-w-0 min-h-0 bg-neutral-600 items-center p-10">
             <h1 class="flex justify-center text-white text-4xl font-bold m-6">Free Forever</h1>
 
@@ -20,6 +23,8 @@
             <p class="text-white flex justify-center text-base font-bold border-b-2 w-80 p-4 mb-10 border-cyan-300">No payment details required</p>
 
         </div>
+
+        <!--(right side of the pricing table) Free Forever-->
 
         <div class="flex flex-col min-w-0 min-h-0 bg-teal-600 items-center p-10">
             <h1 class="flex justify-center text-white text-4xl font-bold m-6">Subscriber</h1>
