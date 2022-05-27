@@ -16,26 +16,11 @@
       </template>
     </captioned-content> 
 
-    <captioned-content> 
-      <template #content>
-        <div class="flex max-w-xl h-80">
-          <img class="mt-4" src="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg" alt="">
-        </div>
-      </template>
-      <template #caption>
-        Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg">wallhaven</a>
-      </template>
-    </captioned-content> 
-
-    
+    <PricingSection/>
 
     <HeroSection/>
 
     <FandQ/>
-
-    <ProductTabs />
-
-    <ProductReview />
 
     <FormSection /> 
     
@@ -54,9 +39,8 @@ import FooterSection from './components/FooterSection.vue'
 import FormSection from './components/FormSection.vue'
 import InputField from './components/InputField.vue'
 import CaptionedContent from './components/CaptionedContent.vue'
-import ProductReview from './components/ProductReview.vue' 
-import ProductTabs from './components/ProductTabs.vue' 
 import NavBar from './components/NavBar.vue'
+import PricingSection from './components/PricingSection.vue'
 
 
 
@@ -71,8 +55,7 @@ export default {
     FooterSection,
     InputField,
     CaptionedContent,
-    ProductReview,
-    ProductTabs,
+    PricingSection
 },
 
 }
