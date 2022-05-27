@@ -33,10 +33,6 @@
 
     <FandQ/>
 
-    <ProductTabs />
-
-    <ProductReview />
-
     <FormSection /> 
     
     <input-field></input-field>
@@ -54,8 +50,6 @@ import FooterSection from './components/FooterSection.vue'
 import FormSection from './components/FormSection.vue'
 import InputField from './components/InputField.vue'
 import CaptionedContent from './components/CaptionedContent.vue'
-import ProductReview from './components/ProductReview.vue' 
-import ProductTabs from './components/ProductTabs.vue' 
 import NavBar from './components/NavBar.vue'
 
 
@@ -71,8 +65,6 @@ export default {
     FooterSection,
     InputField,
     CaptionedContent,
-    ProductReview,
-    ProductTabs,
 },
 
 }
