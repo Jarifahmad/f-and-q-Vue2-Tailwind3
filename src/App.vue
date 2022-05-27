@@ -3,6 +3,21 @@
 
     <NavBar />
 
+    <pricing-section>
+      <template #pricing-header>
+
+      </template>
+
+      <template #free-forever>
+        
+      </template>
+
+      <template #subscriber>
+
+      </template>
+    </pricing-section>
+
+
     <HeaderSection/>
 
     <captioned-content> 
@@ -15,8 +30,6 @@
         Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png">wallhaven</a>
       </template>
     </captioned-content> 
-
-    <PricingSection/>
 
     <HeroSection/>
 
