@@ -8,6 +8,10 @@
 
       </template>
 
+      <template #pricing-description>
+
+      </template>
+
       <template #free-forever>
         
       </template>
@@ -23,8 +27,8 @@
 
     <captioned-content> 
       <template #content>
-        <div class="flex max-w-xl max-max-h-80">
-          <img class="mt-4 bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
+        <div class="">
+          <img class="bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
         </div>
       </template>
       <template #caption>
