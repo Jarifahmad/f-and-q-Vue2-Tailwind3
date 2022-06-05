@@ -50,7 +50,7 @@ import InputField from './components/InputField.vue'
 import NavBar from './components/NavBar.vue'
 import PricingSection from './components/PricingSection.vue'
 import PricingHeader from './components/PricingHeader.vue'
-
+import CarouselSection from './components/CarouselSection.vue'
 
 
 export default {
@@ -64,7 +64,8 @@ export default {
     FooterSection,
     InputField,
     PricingSection,
-    PricingHeader
+    PricingHeader,
+    CarouselSection
 },
 
 }
