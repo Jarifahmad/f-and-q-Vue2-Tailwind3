@@ -27,8 +27,6 @@
 
     <HeaderSection/>
 
-    <PricingHeader/> 
-
     <HeroSection/>
 
     <FandQ/>
