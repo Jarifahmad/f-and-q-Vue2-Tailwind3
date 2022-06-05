@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <div class="flex flex-row justify-center">
         <slot name="free-forever">
 
@@ -43,10 +42,8 @@
         </table>
 
         </slot>
- 
 
         <slot name="subscriber">
-
         <table class="max-w-md ">
             <ul class="bg-teal-600 p-8 justify-items-center text-center">
                 <li>
