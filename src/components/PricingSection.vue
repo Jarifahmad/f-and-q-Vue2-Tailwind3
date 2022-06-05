@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <div class="flex flex-row justify-center">
         <slot name="free-forever">
 
@@ -36,21 +35,15 @@
                     <p class=" justify-items-center text-white text-base font-bold border-b-2 p-4 border-cyan-300">Featured videos</p>
                 </li>
 
-    <div class="flex flex-row justify-center">
-    
-        <slot name="pricing-header">
-
                 <li>
                     <p class=" justify-items-center text-white text-base font-bold border-b-2 text-center p-4 border-cyan-300">No payment details required</p>
                 </li>
-            </ul>
+            </ul> 
         </table>
 
         </slot>
 
-
         <slot name="subscriber">
-
         <table class="max-w-md ">
             <ul class="bg-teal-600 p-8 justify-items-center text-center">
                 <li>

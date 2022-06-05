@@ -3,6 +3,8 @@
 
     <NavBar />
 
+    <PricingHeader/>
+
     <PricingHeader></PricingHeader>
 
     <pricing-section>
