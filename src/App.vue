@@ -3,22 +3,31 @@
 
     <NavBar />
 
+    <PricingHeader/>
+
+    <pricing-section>
+      <template #pricing-header>
+
+      </template>
+
+      <template #pricing-description>
+
+      </template>
+
+      <template #free-forever>
+        
+      </template>
+
+      <template #subscriber>
+
+      </template>
+    </pricing-section>
+
+    <CarouselSection />
+
     <HeaderSection/>
 
-    <captioned-content> 
-      <template #content>
-        <div class="flex max-w-xl max-max-h-80">
-          <img class="mt-4 bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
-        </div>
-      </template>
-      <template #caption>
-        Source: <a class="text-blue-900 underline" href="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png">wallhaven</a>
-      </template>
-    </captioned-content> 
-
     <PricingHeader/> 
-
-    <PricingSection/>
 
     <HeroSection/>
 
@@ -40,9 +49,9 @@ import FandQ from './components/FandQ.vue'
 import FooterSection from './components/FooterSection.vue' 
 import FormSection from './components/FormSection.vue'
 import InputField from './components/InputField.vue'
-import CaptionedContent from './components/CaptionedContent.vue'
 import NavBar from './components/NavBar.vue'
 import PricingSection from './components/PricingSection.vue'
+import PricingHeader from './components/PricingHeader.vue'
 
 
 
@@ -56,8 +65,8 @@ export default {
     FormSection,
     FooterSection,
     InputField,
-    CaptionedContent,
-    PricingSection
+    PricingSection,
+    PricingHeader
 },
 
 }
