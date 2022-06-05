@@ -5,8 +5,8 @@
         <h2 class="font-bold m-6 text-3xl">Frequently asked question </h2>
     </div>
 
-    <div class="flex flex-col justify-center  bg-zinc-100">
-        <div class="flex float-left flex-col">
+    <div class="flex flex-col bg-zinc-100">
+        <div class="">
         <button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="flex items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button> 
         <p class="font-bold">What is your statement of faith?</p>
         <p v-show="answerToQuestionOne" class="m-2"> Answer to question 1 is blah blah </p>
@@ -33,8 +33,8 @@
         </div>
         
     
-        <div class="float-right">
-        <button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="flex items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button> 
+        <div class="">
+        <button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="flex  items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button> 
         <p class="flex flex-row font-bold">How long are the RaiseUpFaith lessons?</p>
         <p v-show="answerToQuestionSeven" class="flex flex-cols-1 m-2"> Answer to question 1 is blah blah </p>
 
@@ -55,7 +55,7 @@
         <p v-show="answerToQuestionEleven" class="flex flex-cols-1 m-2"> Answer to question 1 is blah blah </p> 
         </div>
     </div>
-    
+
 </div>
     
 
