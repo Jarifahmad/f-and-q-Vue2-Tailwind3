@@ -85,42 +85,6 @@
 
         </slot>
         </div>
-
-        
-
-        <!--
-                        <table class="flex justify-center">
-                <ul class="flex  justify-items-center bg-teal-600 ">
-                    <li>
-                        <h1 class="text-white text-4xl font-bold m-6">Subscriber</h1>
-                    </li>
-                    <li>
-                        <div class="w-14 h-3 bg-amber-300 justify-center"></div>
-                    </li>
-                    <li>
-                        <p class="text-white m-10 text-lg text-center">For churches who would like full access, <br/> with plans starting at $25 / £17 per month. </p>
-                    </li>
-                    <li>
-                        <p class="text-white text-lg">WHAT'S INCLUDED:</p>
-                    </li>
-                    <li>
-                         <p class="text-white text-base font-bold border-b-2 w-80 p-4 border-cyan-300 text-center">Access to unlimited resources</p>
-                    </li>
-                    <li>
-                        <p class="text-white text-base font-bold border-b-2 w-80 p-4 border-cyan-300 text-center">Choose from 800+ lessons</p>
-                    </li>
-                    <li>
-                        <p class="text-white text-base font-bold border-b-2 w-80 p-4 border-cyan-300 text-center">Unlimited streaming & downloads of all content</p>
-                    </li>
-                    <li>
-                        <p class="text-white text-base font-bold border-b-2 w-80 p-4 border-cyan-300 text-center">Lesson editor and builder</p>
-                    </li>
-                    <li>
-                        <p class="text-white text-base font-bold border-b-2 w-80 p-4 mb-10 border-cyan-300 text-center">Unlimited licence for use in your church</p>
-                    </li>
-                </ul>
-        </table>
-        -->
   
     </div>
 </template>
