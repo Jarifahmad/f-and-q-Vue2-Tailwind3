@@ -39,12 +39,11 @@
                 <li>
                     <p class=" justify-items-center text-white text-base font-bold border-b-2 text-center p-4 border-cyan-300">No payment details required</p>
                 </li>
-            </ul>
+            </ul> 
         </table>
 
         </slot>
-        
-
+ 
 
         <slot name="subscriber">
 
