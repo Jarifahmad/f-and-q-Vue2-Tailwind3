@@ -3,8 +3,14 @@
 
     <NavBar />
 
+    <PricingHeader></PricingHeader>
+
     <pricing-section>
       <template #pricing-header>
+
+      </template>
+
+      <template #pricing-description>
 
       </template>
 
@@ -17,13 +23,14 @@
       </template>
     </pricing-section>
 
+    <CarouselSection />
 
     <HeaderSection/>
 
     <captioned-content> 
       <template #content>
-        <div class="flex max-w-xl max-max-h-80">
-          <img class="mt-4 bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
+        <div class="">
+          <img class="bg-contain" src="https://w.wallhaven.cc/full/k7/wallhaven-k7v9yq.png" alt="">
         </div>
       </template>
       <template #caption>
@@ -54,6 +61,8 @@ import InputField from './components/InputField.vue'
 import CaptionedContent from './components/CaptionedContent.vue'
 import NavBar from './components/NavBar.vue'
 import PricingSection from './components/PricingSection.vue'
+import CarouselSection from './components/CarouselSection.vue'
+import PricingHeader from './components/PricingHeader.vue'
 
 
 
@@ -68,7 +77,9 @@ export default {
     FooterSection,
     InputField,
     CaptionedContent,
-    PricingSection
+    PricingSection,
+    CarouselSection,
+    PricingHeader
 },
 
 }

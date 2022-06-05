@@ -3,7 +3,7 @@
       <nav class="bg-white px-2 sm:px-4 py-5 text-lg">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="" class="flex items-center">
-                <img src="" class="mr-3 h-6 sm:h-9" alt="Logo" />
+                <img src="../assets/logo.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
                 <span class="self-center text-3xl font-bold">RaiseUpFaith</span>
             </a>
 
