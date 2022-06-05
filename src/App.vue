@@ -3,6 +3,8 @@
 
     <NavBar />
 
+    <PricingHeader></PricingHeader>
+
     <pricing-section>
       <template #pricing-header>
 
@@ -60,6 +62,7 @@ import CaptionedContent from './components/CaptionedContent.vue'
 import NavBar from './components/NavBar.vue'
 import PricingSection from './components/PricingSection.vue'
 import CarouselSection from './components/CarouselSection.vue'
+import PricingHeader from './components/PricingHeader.vue'
 
 
 
@@ -75,7 +78,8 @@ export default {
     InputField,
     CaptionedContent,
     PricingSection,
-    CarouselSection
+    CarouselSection,
+    PricingHeader
 },
 
 }

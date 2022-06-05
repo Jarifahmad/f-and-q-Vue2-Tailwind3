@@ -1,4 +1,3 @@
-<!-- 
 <template>
     <div>
       <nav class="bg-white px-2 sm:px-4 py-5 text-lg">
@@ -46,7 +45,6 @@
 </nav>
     </div>
 </template>
--->
 
 <script>
     export default {
