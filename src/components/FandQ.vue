@@ -6,8 +6,8 @@
     </div>
 
     <div class="bg-zinc-100 flex justify-center">
-        <ul class="flex flex-col ">
-            <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="text-2xl items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
+        <ul class="flex-col">
+            <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">What is your statement of faith?</span>
             <p v-show="answerToQuestionOne" class="m-2 flex justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
