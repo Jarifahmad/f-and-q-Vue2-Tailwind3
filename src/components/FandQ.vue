@@ -7,59 +7,59 @@
 
     <div class="bg-zinc-100 flex justify-center">
         <ul class="flex flex-col ">
-            <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="text-2xl items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">What is your statement of faith?</span>
             <p v-show="answerToQuestionOne" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionTwo = ! answerToQuestionTwo" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionTwo = ! answerToQuestionTwo" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">How many of our staff and volunteers can use the RaiseUpFaith platform?</span>
             <p v-show="answerToQuestionTwo" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionThree = ! answerToQuestionThree" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionThree = ! answerToQuestionThree" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Can I live-stream RaiseUpFaith lessons?</span>
             <p v-show="answerToQuestionThree" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionFour = ! answerToQuestionFour" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionFour = ! answerToQuestionFour" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Is the RaiseUpFaith platform available internationally?</span>
             <p v-show="answerToQuestionFour" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionFive = ! answerToQuestionFive" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionFive = ! answerToQuestionFive" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Can I access RaiseUpFaith on any device?</span>
             <p v-show="answerToQuestionFive" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionSix = ! answerToQuestionSix" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionSix = ! answerToQuestionSix" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Can I print and download RaiseUpFaith content?</span>
             <p v-show="answerToQuestionSix" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
     <br>
             <section>
-            <li><span><button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">How long are the RaiseUpFaith lessons?</span>
             <p v-show="answerToQuestionSeven" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionEight = ! answerToQuestionEight" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionEight = ! answerToQuestionEight" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">What if I don't have wifi?</span>
             <p v-show="answerToQuestionEight" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionNine = ! answerToQuestionNine" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionNine = ! answerToQuestionNine" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Do I need to use resources in any particular order?</span>
             <p v-show="answerToQuestionNine" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionTen = ! answerToQuestionTen" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionTen = ! answerToQuestionTen" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">What materials do I need to run activites?</span>
             <p v-show="answerToQuestionTen" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
-            <li><span><button @click.prevent="answerToQuestionEleven = ! answerToQuestionEleven" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
+            <li><span><button @click.prevent="answerToQuestionEleven = ! answerToQuestionEleven" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">Does RaiseUpFaith feature content from all around the world?</span>
             <p v-show="answerToQuestionEleven" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
