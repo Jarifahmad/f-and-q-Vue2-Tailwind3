@@ -5,8 +5,9 @@
         <h2 class="font-bold m-6 text-3xl">Frequently asked question </h2>
     </div>
 
-    <div class="bg-zinc-100 flex justify-center">
-        <ul class="flex-col">
+    <div class="bg-zinc-100 flex justify-center flex-wrap">
+        <ul class="">
+            <section class="">
             <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">What is your statement of faith?</span>
             <p v-show="answerToQuestionOne" class="m-2 flex justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
@@ -36,9 +37,10 @@
             <span class="font-bold">Can I print and download RaiseUpFaith content?</span>
             <p v-show="answerToQuestionSix" class="m-2 flex justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
+            </section>
 
     <br>
-            <section>
+            <section class="">
             <li><span><button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="text-2xl rounded-full w-8 h-8 text-teal-600 bg-white m-3">+</button></span>
             <span class="font-bold">How long are the RaiseUpFaith lessons?</span>
             <p v-show="answerToQuestionSeven" class="m-2 flex justify-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
