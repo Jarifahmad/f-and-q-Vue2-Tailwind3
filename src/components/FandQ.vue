@@ -6,7 +6,7 @@
     </div>
 
     <div class="bg-zinc-100 flex justify-center">
-        <ul class="flex flex-col">
+        <ul class="flex flex-col ">
             <li><span><button @click.prevent="answerToQuestionOne = ! answerToQuestionOne" class="items-center rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
             <span class="font-bold">What is your statement of faith?</span>
             <p v-show="answerToQuestionOne" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
@@ -37,6 +37,8 @@
             <p v-show="answerToQuestionSix" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
 
+    <br>
+            <section>
             <li><span><button @click.prevent="answerToQuestionSeven = ! answerToQuestionSeven" class="rounded-full w-8 h-8 text-teal-600 bg-white m-3 p-2">+</button></span>
             <span class="font-bold">How long are the RaiseUpFaith lessons?</span>
             <p v-show="answerToQuestionSeven" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
@@ -61,6 +63,7 @@
             <span class="font-bold">Does RaiseUpFaith feature content from all around the world?</span>
             <p v-show="answerToQuestionEleven" class="m-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae. </p>
             </li>
+            </section>
         </ul>
     </div>
 
